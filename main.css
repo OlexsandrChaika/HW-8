@@ -1,0 +1,20 @@
+.Monday > li > p:hover{
+color: purple;
+}
+.Tuesday > li > p:hover{
+    color: blue;
+}
+.Wednesday > li > p:hover{
+    color: red;
+}
+.Thursday > li > p:hover{
+    color: aqua;
+}
+.Friday > li > p:hover{
+    color: yellow;
+}
+.Monday > li:nth-child(3){color: red;}
+.Tuesday > li:nth-child(3n){color: aqua;}
+.Wednesday > li:first-child{color: yellow;}
+.Thursday > li:last-child{color: purple;}
+.Friday > li:nth-child(-n+2){color: blue;}
